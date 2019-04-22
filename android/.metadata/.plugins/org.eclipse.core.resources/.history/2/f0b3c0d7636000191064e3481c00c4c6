@@ -1,0 +1,35 @@
+package StringAndArray;
+
+import java.util.Arrays;
+
+public class XuLyMangMotChieu {
+
+	public static void main(String[] args) {
+
+		int [] M = new int[4];
+		int [] N= new int[4];
+		N[0]= 0;
+		N[1]= 3;
+		
+		N[2]=9;
+		N[3]=12;
+		M[0]=1;
+		M[1]=5;
+		M[2]=9;
+		M[3]= 14;
+		System.out.println("Mang da nhap vao la:");
+		for(int i=0; i <M.length;i++)
+		{
+			System.out.print(M[i]+"\t");
+			
+		}
+		Arrays.sort(M);
+		System.out.println("\nMang sau khi da sap xep la:");
+		for(int i=0; i <M.length;i++)
+		{
+			System.out.print(M[i]+"\t");
+			
+		}
+	}
+
+}
